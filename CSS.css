@@ -1,0 +1,55 @@
+body{
+    background-color: lightgrey;
+}
+p{
+    font-size: large;
+    margin: 90px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+table{
+    font-size: 25px;
+    width: 1000px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 100%;
+}
+
+thead{
+    background-color: green;
+}
+tbody{
+    background-color: darkgray;
+}
+
+th{
+    border: 4px dotted darkblue;
+}
+td{
+    border: 4px solid darkblue;
+}
+td:nth-child(even){
+    background-color: gray;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+td:hover{
+    background-color: darkorange;
+    border: 5px dashed yellow;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: u;
+}
+
+.T1{
+    width: 115px;
+    height: 75px;
+}
+#CC{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Comforter Brush", cursive;
+    font-style: normal;
+}
